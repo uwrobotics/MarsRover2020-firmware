@@ -27,3 +27,8 @@ add_library(QEI STATIC)
 target_sources(QEI PRIVATE src/QEI.cpp)
 target_include_directories(QEI PUBLIC include)
 target_set_mbed_dependency(QEI)
+
+add_library(CurrentSensor STATIC)
+target_sources(CurrentSensor PRIVATE src/CurrentSensor.cpp)
+target_include_directories(CurrentSensor PUBLIC include)
+target_set_mbed_dependency(CurrentSensor)

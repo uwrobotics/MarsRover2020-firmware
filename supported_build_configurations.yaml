@@ -43,6 +43,9 @@ test-can:
   - gimbtonomy
 #  - science
 
+test-currentsensor:
+  - nucleo
+  
 test-enc-abs-pwm:
   #  - nucleo
   - arm
